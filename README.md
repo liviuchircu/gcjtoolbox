@@ -1,6 +1,14 @@
 # gcjtoolbox
 Google Code Jam tools for Python productivity freaks
 
+## 0. Quick Install
+
+    ]$ git clone https://github.com/liviuchircu/gcjtoolbox ~/src/gcjtoolbox
+    ]$ echo 'export PYTHONPATH=$PYTHONPATH:~/src/gcjtoolbox' >> ~/.bashrc
+    ]$ source ~/.bashrc
+    ]$ python -c 'import gcjtoolbox'
+    ]$
+
 ## 1. Focus on the solution
 
 ```python
@@ -18,7 +26,7 @@ GCJ(solve_case)
 ## 2. Just run it. Even with no arguments.
 
 ```
-$] python3 A.py
+]$ python3 A.py
 Finding latest modified input file...
 
 Processing ./A-large-practice.in...
