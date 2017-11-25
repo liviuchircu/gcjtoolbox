@@ -11,7 +11,7 @@ Google Code Jam tools for Python productivity freaks
 ## 1. Focus on the solution
 
 ```python
-https://github.com/liviuchircu/gcjtoolbox
+""" https://github.com/liviuchircu/gcjtoolbox """
 from gcjtoolbox import GCJ
 
 # for each test case, read the whole input (one line here), output a 0
