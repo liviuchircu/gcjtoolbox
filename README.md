@@ -28,6 +28,7 @@ GCJ(solve_case)
 ```
 ]$ python3 A.py
 Finding latest modified input file...
+Moved file: /home/liviu/Downloads/A-large-practice.in to ./A-large-practice.in
 
 Processing ./A-large-practice.in...
 Ran 100 tests in 0.11s (min=0.00s, avg=0.00s, max=0.02s)
