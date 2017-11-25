@@ -3,11 +3,10 @@ Google Code Jam tools for Python productivity freaks
 
 ## 0. Quick Install
 
-    ]$ git clone https://github.com/liviuchircu/gcjtoolbox ~/src/gcjtoolbox
-    ]$ echo 'export PYTHONPATH=$PYTHONPATH:~/src/gcjtoolbox' >> ~/.bashrc
-    ]$ source ~/.bashrc
-    ]$ python3 -c 'import gcjtoolbox'
-    ]$
+    git clone https://github.com/liviuchircu/gcjtoolbox ~/src/gcjtoolbox
+    echo 'export PYTHONPATH=$PYTHONPATH:~/src/gcjtoolbox' >> ~/.bashrc
+    source ~/.bashrc
+    python3 -c 'import gcjtoolbox'
 
 ## 1. Focus on the solution
 
