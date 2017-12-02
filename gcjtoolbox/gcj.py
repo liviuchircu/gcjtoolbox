@@ -100,6 +100,8 @@ class GCJ:
                     if __debug__:
                         st = time.time()
                     answer = solve_case_f(fi)
+                    if answer[-1] == '\n':
+                        answer = answer[:-1]
                     fo.write("Case #{}: {}\n".format(case, answer))
                     if __debug__:
                         times.append(time.time() - st)
