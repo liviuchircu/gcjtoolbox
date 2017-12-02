@@ -110,3 +110,9 @@ class GCJ:
                         "(min={:.2f}s, avg={:.2f}s, max={:.2f}s)".format(
                         T, sum(times), min(times), sum(times)/T, max(times)))
             print("Wrote {} answers to {}".format(T, output_file))
+
+def next_greater_power_of_2(x):
+    return 2**(x).bit_length()
+
+def is_power_of_2(x):
+    return not (x & (x - 1))
