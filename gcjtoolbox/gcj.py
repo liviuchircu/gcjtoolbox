@@ -98,6 +98,9 @@ class GCJ:
                     times = []
                 for case in range(1, T+1):
                     if __debug__:
+                        if case != 1 and (case-1) % 10 == 0:
+                            print(flush=True)
+                        print('.', end='', flush=True)
                         st = time.time()
                     answer = solve_case_f(fi)
                     if isinstance(answer, str) and \
@@ -107,6 +110,7 @@ class GCJ:
                     if __debug__:
                         times.append(time.time() - st)
             if __debug__:
+                print(flush=True)
                 print("Ran {} tests in {:.2f}s "
                         "(min={:.2f}s, avg={:.2f}s, max={:.2f}s)".format(
                         T, sum(times), min(times), sum(times)/T, max(times)))
