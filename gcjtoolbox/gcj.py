@@ -106,7 +106,12 @@ class GCJ:
                     if isinstance(answer, str) and \
                             len(answer) > 0 and answer[-1] == '\n':
                         answer = answer[:-1]
-                    fo.write("Case #{}: {}\n".format(case, answer))
+
+                    if isinstance(answer, str) and len(answer) > 0 and answer[0] == '\n':
+                        fo.write("Case #{}:{}\n".format(case, answer))
+                    else:
+                        fo.write("Case #{}: {}\n".format(case, answer))
+
                     if __debug__:
                         times.append(time.time() - st)
             if __debug__:
