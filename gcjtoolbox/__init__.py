@@ -27,6 +27,10 @@ For more info:
 """
 
 from gcjtoolbox.release import __version__, __author__
-from gcjtoolbox.gcj import GCJ
 
-__all__ = [ 'GCJ' ]
+from gcjtoolbox.gcj import GCJ, baseToDec, decToBase
+from gcjtoolbox.gcj import next_greater_power_of_2, is_power_of_2
+
+__all__ = [ 'GCJ', 'baseToDec', 'decToBase', 'next_greater_power_of_2',
+            'is_power_of_2'
+            ]

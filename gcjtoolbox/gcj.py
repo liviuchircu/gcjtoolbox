@@ -126,3 +126,25 @@ def next_greater_power_of_2(x):
 
 def is_power_of_2(x):
     return not (x & (x - 1))
+
+"""
+Convert a decimal number to any given base
+"""
+def decToBase(number, base):
+    if number == 0:
+        return [0]
+    digits = []
+    while number:
+        digits.append(int(number % base))
+        number //= base
+    return digits[::-1]
+
+"""
+Convert a base 2-10 number to its base 10 equivalent
+"""
+def baseToDec(number, base):
+    figures = reversed(list(int(i) for i in str(number)))
+    result = 0
+    for i, fig in enumerate(figures):
+        result += fig * base**i
+    return result
