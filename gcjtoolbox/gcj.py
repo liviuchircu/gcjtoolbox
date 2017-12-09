@@ -104,10 +104,10 @@ class GCJ:
                         st = time.time()
                     answer = solve_case_f(fi)
                     if isinstance(answer, str) and \
-                            len(answer) > 0 and answer[-1] == '\n':
+                            len(answer) > 1 and answer.endswith("\n"):
                         answer = answer[:-1]
 
-                    if isinstance(answer, str) and len(answer) > 0 and answer[0] == '\n':
+                    if isinstance(answer, str) and answer.startswith("\n"):
                         fo.write("Case #{}:{}\n".format(case, answer))
                     else:
                         fo.write("Case #{}: {}\n".format(case, answer))
