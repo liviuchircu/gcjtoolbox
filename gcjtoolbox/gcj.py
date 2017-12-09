@@ -143,8 +143,4 @@ def decToBase(number, base):
 Convert a base 2-10 number to its base 10 equivalent
 """
 def baseToDec(number, base):
-    figures = reversed(list(int(i) for i in str(number)))
-    result = 0
-    for i, fig in enumerate(figures):
-        result += fig * base**i
-    return result
+    return int(str(number), base)
