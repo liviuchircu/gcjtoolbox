@@ -1,5 +1,5 @@
 # gcjtoolbox
-Google Code Jam tools for Python productivity freaks
+Google Code Jam productivity tools for Python
 
 ## 0. Quick Install
 
