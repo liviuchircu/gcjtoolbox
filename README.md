@@ -11,6 +11,8 @@ Google Code Jam productivity tools for Python
 ## 1. Focus on the solution
 
 ```python
+# A.py - solution file for problem A
+
 """ https://github.com/liviuchircu/gcjtoolbox """
 from gcjtoolbox import GCJ
 
